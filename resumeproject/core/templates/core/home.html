@@ -1,0 +1,29 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+<div class=" mt-5" >
+  <div class="text-center">
+           <img src="{% static 'core/images/rits.jpg' %}" alt="Profilepic" class="img-thumbnail" width="250px" height="150px">
+
+  </div>
+
+  <div class=" mt-5 text-white mx-5 text-justify">
+      <h1 class="font-weight-bold st-font">Hello,</h1>
+
+      <div class="px-4" style="line-height: 2rem;">
+          <p style="text-indent:100px;">I am <b
+              class="text-warning">Ritesh Rajput </b>  I'm passionate about Python programming. Eager to dive into real-world applications, I'm excited about contributing to innovative projects and growing in a dynamic environment.  </p>
+          <p>I graduated from <b class = "text-warning">Indore Institute Of Science And Technology  /RGPV </b>with a degree in <b class = "text-warning"> Bachelor of Technology </b> and had a strong focus on Python. During my academic journey, I developed a keen interest in programming, and Python quickly became my language of choice due to its versatility and readability.
+          </p>
+          <p>I am eager to contribute my skills and bring a fresh perspective to the [Company/Organization/Project]. I am open to learning and adapting to new challenges, and I look forward to the exciting journey ahead.
+          </p>
+
+
+      </div>
+  </div>
+<div class="text-center">
+        <a href="contact" class="btn btn-outline-warning my-3 mr-5">Hire me</a>
+    <a href="contact" class="btn btn-outline-info  my-3 ">Contact </a>
+</div>
+</div>
+{% endblock content %}
