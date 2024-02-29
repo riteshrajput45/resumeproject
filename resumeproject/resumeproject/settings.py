@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     'core',
     'edu',
     'serv',
-    'django_extensions',
 ]
 
 MIDDLEWARE = [
